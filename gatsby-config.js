@@ -1,6 +1,6 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -10,11 +10,11 @@ module.exports = {
     siteTitle: `Tomasz Karny`,
     siteTitleAlt: `Portfolio`,
     siteHeadline: `One Page, business card`,
-    siteUrl: `https://cara.lekoarts.de`,
+    siteUrl: `https://karny-tomasz.netlify.app/`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `Tom`,
   },
   plugins: [
     {
@@ -58,4 +58,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
